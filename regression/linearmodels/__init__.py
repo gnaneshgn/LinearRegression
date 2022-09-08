@@ -20,7 +20,7 @@ class LinearRegression:
         logging.info("Initalizing gradient descent")
         for i in range(self.itr):
             logging.info("Intialized formula y=mx+c")
-            y_pred=np.dot(x,self.weights)+self.bias
+            y_pred=np.dot(X,self.weights)+self.bias
             logging.info("Intialized weights w and b")
             dw=(1/rows)*np.dot(X.T,(y_pred-y))
             db=(1/rows)*np.sum(y_pred-y)
