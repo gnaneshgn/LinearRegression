@@ -13,3 +13,7 @@ y=wx + b or y=mx + c
 2. Gradient descent /derivative of the cost function
 3. obtain w,b(weights) new values
 4. repeate step1 until error is low
+
+```
+ Note: run app.py
+ ```
