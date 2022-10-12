@@ -12,7 +12,7 @@ def get_packages_list()->List[str]:
 
 
 setup(
-    name="linear_regression_scratch",
+    name="logistic_regression_scratch",
     version="0.0.1",
     description="Linear regression model from scratch",
     packages=find_packages(),
